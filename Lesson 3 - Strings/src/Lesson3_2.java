@@ -20,7 +20,17 @@ public class Lesson3_2 {
 		System.out.println(word2.substring(0, 4) + " a " + "\"" + word2.substring(8).toUpperCase() + "\"");
 		System.out.println(" ");
 		String word3 = "Whose a whats it";
-		System.out.println(word3.substring(0, 5));
+		System.out.println(word3.substring(0, 5).toUpperCase()+ "\nis" + word3.substring(7, 12).toUpperCase());
+		System.out.println(" ");
+		String word4 = "Every Way The Wind Blows";
+		System.out.println(word4.substring(0, 5).toLowerCase() + word4.substring(5, 9).toUpperCase() + word4.substring(9, 13).toLowerCase() + " \\" + word4.substring(14, 18).toUpperCase() + "\\" + word4.substring(18, 24).toLowerCase() + " 4");
+		System.out.println(" ");
+		String word5 = "Peter Piper Picked A Peck Of Pickled Peppers";
+		System.out.println(word5.substring(19, 20) + word5.substring(20, 36).toLowerCase() + "\t" + word5.substring(37, 44).toLowerCase() + " " +  word5.substring(0, 11) + "\t" + word5.substring(12, 18).toLowerCase());
+		System.out.println(" ");
+		String word6 = "word has 4 letters";
+		String partOfword6 = word6.substring(8);
+		System.out.println("\"" + word6.substring(9, 10) + "\"" + word6.substring(10, 18));
 	}
 
 }
