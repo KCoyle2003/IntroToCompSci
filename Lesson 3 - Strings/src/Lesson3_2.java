@@ -5,7 +5,7 @@ public class Lesson3_2 {
 		// TODO Auto-generated method stub
 		System.out.println("a\\b\\c\\\"d\"");
 		System.out.println(" ");
-		System.out.println("\\t is a tab, \\n is a new line, \\" + "prints a \"quote\"");
+		System.out.println("\\t is a tab, \\n is a new line, \\\" prints a \"quote\"");
 		System.out.println(" ");
 		System.out.println("\"line one\" \n\\line\ttwo\\");
 		System.out.println(" ");
@@ -37,7 +37,7 @@ public class Lesson3_2 {
 		System.out.println(word7.substring(3, 13).toLowerCase() + word7.substring(13, 16) + partOfword7.length());
 		System.out.println(" ");
 		String word8 = "Jim, Jacky, Johnny, Jill";
-		System.out.println(word8.substring(0, 3).toLowerCase() + "\\3" + "\n");
+		System.out.println(word8.substring(0, 3).toLowerCase() + "\\3" + "\n" + word8.substring(5, 10).toUpperCase() + "\\5" + "\n" + word8.substring(12, 18).toLowerCase() + "\\6" + "\n" + word8.substring(20, 24).toUpperCase() + "\\4");
 	}
 
 }
