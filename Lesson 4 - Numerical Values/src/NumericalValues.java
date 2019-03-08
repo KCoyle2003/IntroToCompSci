@@ -7,11 +7,6 @@ public class NumericalValues {
 		int ex1 = 11;
 		int ex2 = ex1 + 3;
 		System.out.println(ex2);
-		int q = 5;
-		int r = 2 + q++;
-		System.out.println(r);
-		int s = q++ + 2;
-		System.out.println(s);
 	}
 
 }
