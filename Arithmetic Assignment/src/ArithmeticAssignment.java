@@ -20,6 +20,11 @@ public class ArithmeticAssignment {
 		int num15 = 2246;
 		
 		int answer1 = num1 + num2 * (num3 + num4 - num5) - num6 + num7;
+		int answer2 = (num8 + num9 + num10)/num6 + num11;
+		int answer3 = num12 * num13 * num14 + num15;
+		System.out.println(num1 + " + " + num2 + " * " + "(" + num3 + " + " + num4 + " - " + num5 + ")" + " - " + num6 + " + " + num7 + " = " + answer1);
+		System.out.println("(" + num8 + " + " + num9 + " + " + num10 + ")" + " / " + num6 + " + " + num11 + " = " + answer2);
+		System.out.println(num12 + " * " + num13 + " * " + num14 + " + " + num15 + " = " + answer3);
 	}
 
 }
